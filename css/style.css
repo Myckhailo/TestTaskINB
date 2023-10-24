@@ -1,0 +1,993 @@
+/* line 1, ../testStream/scss/style.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../testStream/scss/style.scss */
+.conteiner {
+  position: relative;
+  width: 1240px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url("/fount/Mulish.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Marcellus';
+  src: url("/fount/MarcellusSC-Regular") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 26, ../testStream/scss/style.scss */
+.first-section {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  background-color: #000;
+}
+
+/* line 32, ../testStream/scss/style.scss */
+.first-section__header {
+  height: 100px;
+  width: 100%;
+  background-color: #000;
+}
+
+/* line 38, ../testStream/scss/style.scss */
+.first-section__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+/* line 44, ../testStream/scss/style.scss */
+.first-section__logo {
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  margin-top: 20px;
+}
+
+/* line 51, ../testStream/scss/style.scss */
+.first-section__logoText {
+  cursor: pointer;
+  font-size: 36px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 5px;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* line 60, ../testStream/scss/style.scss */
+.first-section__nav {
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-left: 400px;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* line 69, ../testStream/scss/style.scss */
+.first-section__nav1 {
+  cursor: pointer;
+  font-size: 18px;
+  color: #d6d4d4;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* line 78, ../testStream/scss/style.scss */
+.first-section__navLine {
+  background: linear-gradient(to right, #326CFF, #26FFF2);
+  width: 50px;
+  height: 2px;
+  border-radius: 20px;
+  position: absolute;
+  top: 70px;
+  left: 518px;
+}
+
+/* line 88, ../testStream/scss/style.scss */
+.first-section__toDoList {
+  display: none;
+}
+
+/* line 91, ../testStream/scss/style.scss */
+.first-section__search {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  margin-top: 38px;
+  margin-left: 200px;
+}
+
+/* line 98, ../testStream/scss/style.scss */
+.first-section__burger {
+  display: none;
+}
+
+/* line 102, ../testStream/scss/style.scss */
+.first-section__burger1 {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  margin-top: 38px;
+  margin-left: 40px;
+}
+
+/* line 109, ../testStream/scss/style.scss */
+.first-section__banner {
+  cursor: pointer;
+  height: 700px;
+  width: 700px;
+  opacity: 0.5;
+  margin-left: 600px;
+}
+
+/* line 116, ../testStream/scss/style.scss */
+.first-section__discribeConteiner {
+  position: absolute;
+  top: 150px;
+  left: 10px;
+}
+
+/* line 122, ../testStream/scss/style.scss */
+.first-section__callBanner {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Marcellus', sans-serif;
+}
+
+/* line 128, ../testStream/scss/style.scss */
+.first-section__buttonPlay {
+  height: 45px;
+  width: 125px;
+  background: linear-gradient(to right, #326CFF, #26FFF2);
+  border-radius: 40px;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+/* line 138, ../testStream/scss/style.scss */
+.first-section__buttonInformation {
+  height: 45px;
+  width: 140px;
+  background: #fff;
+  border-radius: 40px;
+  border-style: none;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+/* line 147, ../testStream/scss/style.scss */
+.first-section__descriptionTheFilm {
+  font-size: 16px;
+  color: #C2C2C2;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* line 154, ../testStream/scss/style.scss */
+.first-section__infoText {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* line 158, ../testStream/scss/style.scss */
+.first-section__play {
+  width: 18px;
+  height: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+/* line 164, ../testStream/scss/style.scss */
+.first-section__playText {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+/* line 171, ../testStream/scss/style.scss */
+.first-section__someInfo {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+/* line 177, ../testStream/scss/style.scss */
+.first-section__someInfo1 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+/* line 183, ../testStream/scss/style.scss */
+.first-section__age {
+  height: 55px;
+  width: 55px;
+  margin-right: 30px;
+  margin-top: -16px;
+}
+
+/* line 189, ../testStream/scss/style.scss */
+.first-section__star {
+  height: 18px;
+  width: 18px;
+}
+
+/* line 194, ../testStream/scss/style.scss */
+.second-section {
+  position: relative;
+  height: 2705px;
+  width: 100%;
+  background-color: #000;
+}
+
+/* line 201, ../testStream/scss/style.scss */
+.second-section__startLine {
+  background: linear-gradient(to right, #326CFF, #26FFF2);
+  width: 10px;
+  height: 35px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+/* line 208, ../testStream/scss/style.scss */
+.second-section__generalCall {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 34px;
+  margin-left: 10px;
+}
+
+/* line 215, ../testStream/scss/style.scss */
+.second-section__posterSlide {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+/* line 220, ../testStream/scss/style.scss */
+.second-section__poster1 {
+  height: 300px;
+  width: 200px;
+  margin-left: 0px;
+}
+
+/* line 225, ../testStream/scss/style.scss */
+.second-section__poster2 {
+  height: 280px;
+  width: 180px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+/* line 231, ../testStream/scss/style.scss */
+.second-section__poster20 {
+  height: 280px;
+  width: 180px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+/* line 237, ../testStream/scss/style.scss */
+.second-section__buttonSee {
+  height: 45px;
+  width: 120px;
+  background: linear-gradient(to right, #326CFF, #26FFF2);
+  border-radius: 40px;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 65px;
+  margin-bottom: 45px;
+  cursor: pointer;
+}
+
+/* line 249, ../testStream/scss/style.scss */
+.second-section__SeeText {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 14px;
+  margin-left: 18px;
+}
+
+/* line 256, ../testStream/scss/style.scss */
+.second-section__geners1 {
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+/* line 262, ../testStream/scss/style.scss */
+.second-section__geners5 {
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+/* line 268, ../testStream/scss/style.scss */
+.second-section__geners2 {
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+/* line 274, ../testStream/scss/style.scss */
+.second-section__geners3 {
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+/* line 280, ../testStream/scss/style.scss */
+.second-section__geners4 {
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+/* line 286, ../testStream/scss/style.scss */
+.second-section__actors1 {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* line 292, ../testStream/scss/style.scss */
+.second-section__actors3 {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* line 298, ../testStream/scss/style.scss */
+.second-section__actors2 {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* line 304, ../testStream/scss/style.scss */
+.second-section__actors4 {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* line 312, ../testStream/scss/style.scss */
+.second-section__actors1Call {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 68px;
+  margin-right: 115px;
+  margin-top: 20px;
+}
+
+/* line 319, ../testStream/scss/style.scss */
+.second-section__actors2Call {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+}
+
+/* line 326, ../testStream/scss/style.scss */
+.second-section__actors3Call {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 95px;
+  margin-right: 105px;
+  margin-top: 20px;
+}
+
+/* line 333, ../testStream/scss/style.scss */
+.second-section__actors4Call {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0px;
+  margin-right: 110px;
+  margin-top: 20px;
+}
+
+/* line 340, ../testStream/scss/style.scss */
+.second-section__actors5Call {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+
+/* line 347, ../testStream/scss/style.scss */
+.second-section__actors6Call {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+}
+
+/* line 354, ../testStream/scss/style.scss */
+.second-section__bigBull {
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
+  margin-top: 120px;
+  margin-left: 10px;
+}
+
+/* line 361, ../testStream/scss/style.scss */
+.second-section__bigBull1 {
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  margin-left: 140px;
+}
+
+/* line 367, ../testStream/scss/style.scss */
+.second-section__bigBull2 {
+  height: 270px;
+  width: 1000px;
+  border-radius: 10px;
+  margin-top: 120px;
+  opacity: 0.6;
+  margin-left: 120px;
+}
+
+/* line 375, ../testStream/scss/style.scss */
+.second-section__lastText {
+  font-size: 46px;
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  top: 2400px;
+  left: 180px;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* line 384, ../testStream/scss/style.scss */
+.second-section__buttonRN {
+  height: 50px;
+  width: 150px;
+  background: linear-gradient(to right, #326CFF, #26FFF2);
+  border-radius: 40px;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  position: absolute;
+  top: 2410px;
+  left: 800px;
+  cursor: pointer;
+}
+
+/* line 400, ../testStream/scss/style.scss */
+.footer-section {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background-color: #000;
+}
+
+/* line 405, ../testStream/scss/style.scss */
+.footer-section__logo {
+  height: 60px;
+  width: 60px;
+  margin-top: 40px;
+  margin-left: 130px;
+  cursor: pointer;
+}
+
+/* line 413, ../testStream/scss/style.scss */
+.footer-section__logoText {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 51px;
+  margin-left: 5px;
+}
+
+/* line 420, ../testStream/scss/style.scss */
+.footer-section__text1 {
+  font-size: 14px;
+  color: #C2C2C2;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* line 428, ../testStream/scss/style.scss */
+.footer-section__text2 {
+  font-size: 14px;
+  color: #C2C2C2;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* line 436, ../testStream/scss/style.scss */
+.footer-section__flexDesctop {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 440, ../testStream/scss/style.scss */
+.footer-section__flexDesctopSquare {
+  margin-left: 60px;
+  margin-top: 35px;
+}
+
+@media (max-width: 540px) {
+  /* line 446, ../testStream/scss/style.scss */
+  .conteiner {
+    position: relative;
+    width: 340px;
+    margin: 0 auto;
+  }
+  /* line 453, ../testStream/scss/style.scss */
+  .first-section {
+    position: relative;
+    height: 270px;
+    width: 100%;
+    background-color: #000;
+  }
+  /* line 459, ../testStream/scss/style.scss */
+  .first-section__descriptionTheFilm {
+    display: none;
+  }
+  /* line 462, ../testStream/scss/style.scss */
+  .first-section__wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  /* line 468, ../testStream/scss/style.scss */
+  .first-section__header {
+    height: 60px;
+    width: 100%;
+    background-color: #000;
+  }
+  /* line 474, ../testStream/scss/style.scss */
+  .first-section__nav1 {
+    display: none;
+  }
+  /* line 477, ../testStream/scss/style.scss */
+  .first-section__burger1 {
+    display: none;
+  }
+  /* line 480, ../testStream/scss/style.scss */
+  .first-section__logo {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+  }
+  /* line 486, ../testStream/scss/style.scss */
+  .first-section__logoText {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-left: 5px;
+  }
+  /* line 493, ../testStream/scss/style.scss */
+  .first-section__nav {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+  /* line 500, ../testStream/scss/style.scss */
+  .first-section__navLine {
+    background: linear-gradient(to right, #326CFF, #26FFF2);
+    width: 30px;
+    height: 1px;
+    border-radius: 20px;
+    position: absolute;
+    top: 42px;
+    left: 107px;
+  }
+  /* line 509, ../testStream/scss/style.scss */
+  .first-section__toDoList {
+    height: 10px;
+    width: 10px;
+    margin-top: 28px;
+    margin-left: 7px;
+    display: block;
+  }
+  /* line 516, ../testStream/scss/style.scss */
+  .first-section__search {
+    height: 14px;
+    width: 14px;
+    margin-top: 25px;
+    margin-left: 135px;
+  }
+  /* line 522, ../testStream/scss/style.scss */
+  .first-section__burger {
+    height: 14px;
+    width: 14px;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  /* line 528, ../testStream/scss/style.scss */
+  .first-section__banner {
+    height: 200px;
+    width: 200px;
+    opacity: 0.5;
+    margin-left: 140px;
+  }
+  /* line 534, ../testStream/scss/style.scss */
+  .first-section__discribeConteiner {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+  }
+  /* line 540, ../testStream/scss/style.scss */
+  .first-section__callBanner {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+  /* line 545, ../testStream/scss/style.scss */
+  .first-section__buttonPlay {
+    height: 25px;
+    width: 55px;
+    background: linear-gradient(to right, #326CFF, #26FFF2);
+    border-radius: 40px;
+    border-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 554, ../testStream/scss/style.scss */
+  .first-section__buttonInformation {
+    height: 25px;
+    width: 60px;
+    background: #fff;
+    border-radius: 40px;
+    border-style: none;
+    margin-left: 10px;
+  }
+  /* line 562, ../testStream/scss/style.scss */
+  .first-section__infoText {
+    font-size: 8px;
+    font-weight: 700;
+  }
+  /* line 566, ../testStream/scss/style.scss */
+  .first-section__play {
+    width: 10px;
+    height: 10px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+  /* line 572, ../testStream/scss/style.scss */
+  .first-section__playText {
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 3px;
+  }
+  /* line 579, ../testStream/scss/style.scss */
+  .first-section__someInfo {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  /* line 585, ../testStream/scss/style.scss */
+  .first-section__someInfo1 {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  /* line 591, ../testStream/scss/style.scss */
+  .first-section__age {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    margin-top: -12px;
+  }
+  /* line 597, ../testStream/scss/style.scss */
+  .first-section__star {
+    height: 12px;
+    width: 12px;
+  }
+  /* line 603, ../testStream/scss/style.scss */
+  .second-section {
+    position: relative;
+    height: 1565px;
+    width: 100%;
+    background-color: #000;
+  }
+  /* line 610, ../testStream/scss/style.scss */
+  .second-section__startLine {
+    background: linear-gradient(to right, #326CFF, #26FFF2);
+    width: 5px;
+    height: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  /* line 617, ../testStream/scss/style.scss */
+  .second-section__generalCall {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-left: 10px;
+  }
+  /* line 624, ../testStream/scss/style.scss */
+  .second-section__geners5 {
+    display: none;
+  }
+  /* line 627, ../testStream/scss/style.scss */
+  .second-section__posterSlide {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  /* line 632, ../testStream/scss/style.scss */
+  .second-section__poster1 {
+    height: 200px;
+    width: 150px;
+    margin-left: 10px;
+  }
+  /* line 637, ../testStream/scss/style.scss */
+  .second-section__poster2 {
+    height: 180px;
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  /* line 643, ../testStream/scss/style.scss */
+  .second-section__poster20 {
+    display: none;
+  }
+  /* line 646, ../testStream/scss/style.scss */
+  .second-section__actors4 {
+    display: none;
+  }
+  /* line 649, ../testStream/scss/style.scss */
+  .second-section__poster3 {
+    height: 180px;
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 23px;
+  }
+  /* line 655, ../testStream/scss/style.scss */
+  .second-section__poster4 {
+    height: 200px;
+    width: 150px;
+    margin-left: 10px;
+  }
+  /* line 660, ../testStream/scss/style.scss */
+  .second-section__buttonSee {
+    height: 25px;
+    width: 65px;
+    background: linear-gradient(to right, #326CFF, #26FFF2);
+    border-radius: 40px;
+    border-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+  }
+  /* line 670, ../testStream/scss/style.scss */
+  .second-section__SeeText {
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 9px;
+  }
+  /* line 677, ../testStream/scss/style.scss */
+  .second-section__geners1 {
+    height: 100px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  /* line 683, ../testStream/scss/style.scss */
+  .second-section__geners2 {
+    height: 100px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  /* line 689, ../testStream/scss/style.scss */
+  .second-section__geners3 {
+    height: 100px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  /* line 695, ../testStream/scss/style.scss */
+  .second-section__geners4 {
+    height: 100px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  /* line 701, ../testStream/scss/style.scss */
+  .second-section__actors1 {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  /* line 707, ../testStream/scss/style.scss */
+  .second-section__actors3 {
+    display: none;
+  }
+  /* line 710, ../testStream/scss/style.scss */
+  .second-section__actors2 {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  /* line 716, ../testStream/scss/style.scss */
+  .second-section__actors1Call {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 33px;
+    margin-right: 53px;
+    margin-top: 10px;
+  }
+  /* line 723, ../testStream/scss/style.scss */
+  .second-section__actors2Call {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  /* line 728, ../testStream/scss/style.scss */
+  .second-section__actors3Call {
+    display: none;
+  }
+  /* line 731, ../testStream/scss/style.scss */
+  .second-section__actors4Call {
+    display: none;
+  }
+  /* line 734, ../testStream/scss/style.scss */
+  .second-section__actors5Call {
+    display: none;
+  }
+  /* line 737, ../testStream/scss/style.scss */
+  .second-section__actors6Call {
+    display: none;
+  }
+  /* line 740, ../testStream/scss/style.scss */
+  .second-section__bigBull {
+    height: 170px;
+    width: 340px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  /* line 747, ../testStream/scss/style.scss */
+  .second-section__bigBull1 {
+    height: 100px;
+    width: 230px;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-left: 50px;
+  }
+  /* line 754, ../testStream/scss/style.scss */
+  .second-section__bigBull2 {
+    height: 170px;
+    width: 340px;
+    border-radius: 10px;
+    margin-top: 30px;
+    opacity: 0.4;
+    margin-left: 0;
+  }
+  /* line 762, ../testStream/scss/style.scss */
+  .second-section__lastText {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    top: 1470px;
+    left: 20px;
+  }
+  /* line 771, ../testStream/scss/style.scss */
+  .second-section__buttonRN {
+    height: 25px;
+    width: 80px;
+    background: linear-gradient(to right, #326CFF, #26FFF2);
+    border-radius: 40px;
+    border-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    position: absolute;
+    top: 1510px;
+    left: 220px;
+  }
+  /* line 786, ../testStream/scss/style.scss */
+  .footer-section {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+  }
+  /* line 791, ../testStream/scss/style.scss */
+  .footer-section__flexDesctop {
+    display: block;
+  }
+  /* line 794, ../testStream/scss/style.scss */
+  .footer-section__flexDesctopSquare {
+    display: block;
+    margin-top: 0px;
+    margin-left: 0;
+  }
+  /* line 799, ../testStream/scss/style.scss */
+  .footer-section__logo {
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+    margin-left: 130px;
+  }
+  /* line 806, ../testStream/scss/style.scss */
+  .footer-section__logoText {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-left: 5px;
+  }
+  /* line 813, ../testStream/scss/style.scss */
+  .footer-section__text1 {
+    font-size: 14px;
+    color: #C2C2C2;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+  }
+  /* line 820, ../testStream/scss/style.scss */
+  .footer-section__text2 {
+    font-size: 14px;
+    color: #C2C2C2;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

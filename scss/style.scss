@@ -1,0 +1,828 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+};
+.conteiner{
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+   
+};
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('/fount/Mulish.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Marcellus';
+    src: url('/fount/MarcellusSC-Regular') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+   
+.first-section {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color: #000;
+
+    &__header{
+        height: 100px;
+        width: 100%;
+        background-color: #000;
+        
+    }
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        
+    }
+    &__logo{
+        cursor: pointer;
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+    }
+
+    &__logoText{
+        cursor: pointer;
+        font-size: 36px;
+        color: #fff;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-left: 5px;
+        font-family: 'Mulish', sans-serif;
+    }
+    &__nav{
+        cursor: pointer;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-left: 400px;
+        font-family: 'Mulish', sans-serif;
+    }
+    &__nav1{
+        cursor: pointer;
+        font-size: 18px;
+        color: #d6d4d4;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-left: 40px;
+        font-family: 'Mulish', sans-serif;
+    }
+    &__navLine{
+        background: linear-gradient(to right, #326CFF, #26FFF2);
+        width: 50px;
+        height: 2px;
+        border-radius: 20px;
+        position: absolute;
+        top: 70px;
+        left: 518px;
+       
+    }
+    &__toDoList{
+        display: none;
+    }
+    &__search{
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+        margin-top: 38px;
+        margin-left: 200px
+    }
+    &__burger{
+        
+        display: none;
+    }
+    &__burger1{
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+        margin-top: 38px;
+        margin-left: 40px
+    }
+    &__banner{
+        cursor: pointer;
+        height: 700px;
+        width: 700px;
+        opacity: 0.5;
+        margin-left: 600px;
+    }
+    &__discribeConteiner{
+        position: absolute;
+        top: 150px;
+        left: 10px;
+        
+    }
+    &__callBanner{
+        font-size: 48px;
+        color: #fff;
+        font-weight: 400;
+        font-family: 'Marcellus', sans-serif;
+    }
+    &__buttonPlay{
+        height: 45px;
+        width: 125px;
+        background: linear-gradient(to right, #326CFF, #26FFF2);
+        border-radius: 40px;
+        border-style: none;
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+    }
+    &__buttonInformation{
+        height: 45px;
+        width: 140px;
+        background: #fff;
+        border-radius: 40px;
+        border-style: none;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+    &__descriptionTheFilm{
+        font-size: 16px;
+        color: #C2C2C2;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Mulish', sans-serif;
+    }
+    &__infoText{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &__play{
+        width: 18px;
+        height: 18px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    &__playText{
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    &__someInfo{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        margin-right: 30px;
+    }
+    &__someInfo1{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        margin-right: 30px;
+    }
+    &__age{
+        height: 55px;
+        width: 55px;
+        margin-right: 30px;
+        margin-top: -16px;
+    }
+    &__star{
+        height: 18px;
+        width: 18px;
+    }
+};
+.second-section {
+    position: relative;
+    height: 2705px;
+    width: 100%;
+    background-color: #000;
+    
+    
+    &__startLine{
+        background: linear-gradient(to right, #326CFF, #26FFF2);
+        width: 10px;
+        height: 35px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    &__generalCall{
+        font-size: 26px;
+        color: #fff;
+        font-weight: 500;
+        margin-top: 34px;
+        margin-left: 10px;
+    }
+    &__posterSlide{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    &__poster1{
+        height: 300px;
+        width: 200px;
+        margin-left: 0px;
+    }
+    &__poster2{
+        height: 280px;
+        width: 180px;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+    &__poster20{
+        height: 280px;
+        width: 180px;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+    &__buttonSee{
+        height: 45px;
+        width: 120px;
+        background: linear-gradient(to right, #326CFF, #26FFF2);
+        border-radius: 40px;
+        border-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 65px;
+        margin-bottom: 45px;
+        cursor: pointer;
+    }
+    &__SeeText{
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        margin-top: 14px;
+        margin-left: 18px;
+    }
+    &__geners1{
+        height: 200px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    &__geners5{
+        height: 200px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    &__geners2{
+        height: 200px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    &__geners3{
+        height: 200px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    &__geners4{
+        height: 200px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    &__actors1{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    &__actors3{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    &__actors2{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    &__actors4{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    
+    &__actors1Call{
+        color: #fff;
+        font-size: 18px;
+        margin-left: 68px;
+        margin-right: 115px;
+        margin-top: 20px;
+    }
+    &__actors2Call{
+        color: #fff;
+        font-size: 18px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    &__actors3Call{
+        color: #fff;
+        font-size: 18px;
+        margin-left: 95px;
+        margin-right: 105px;
+        margin-top: 20px;
+    }
+    &__actors4Call{
+        color: #fff;
+        font-size: 18px;
+        margin-left: 0px;
+        margin-right: 110px;
+        margin-top: 20px;
+    }
+    &__actors5Call{
+        color: #fff;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 90px;
+        margin-top: 20px;
+    }
+    &__actors6Call{
+        color: #fff;
+        font-size: 18px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    &__bigBull{
+        height: 300px;
+        width: 600px;
+        border-radius: 10px;
+        margin-top: 120px;
+        margin-left: 10px;
+    }
+    &__bigBull1{
+        height: 200px;
+        width: 400px;
+        border-radius: 10px;
+        margin-left: 140px;
+    }
+    &__bigBull2{
+        height: 270px;
+        width: 1000px;
+        border-radius: 10px;
+        margin-top: 120px;
+        opacity: 0.6;
+        margin-left: 120px;
+    }
+    &__lastText{
+        font-size: 46px;
+        color: #fff;
+        font-weight: 500;
+        position: absolute;
+        top: 2400px;
+        left: 180px;
+        font-family: 'Mulish', sans-serif;
+    }
+    &__buttonRN{
+        height: 50px;
+        width: 150px;
+        background: linear-gradient(to right, #326CFF, #26FFF2);
+        border-radius: 40px;
+        border-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        position: absolute;
+        top: 2410px;
+        left: 800px;
+        cursor: pointer;
+    }
+
+};
+.footer-section{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+    &__logo{
+        height: 60px;
+        width: 60px;
+        margin-top: 40px;
+        margin-left: 130px;
+        cursor: pointer;
+    }
+
+    &__logoText{
+        font-size: 36px;
+        color: #fff;
+        font-weight: 500;
+        margin-top: 51px;
+        margin-left: 5px
+    }
+    &__text1{
+        font-size: 14px;
+        color: #C2C2C2;
+        font-weight: 600;
+        margin-top: 10px;
+        cursor: pointer;
+        font-family: 'Mulish', sans-serif;
+    }
+    &__text2{
+        font-size: 14px;
+        color: #C2C2C2;
+        font-weight: 600;
+        margin-top: 10px;
+        cursor: pointer;
+        font-family: 'Mulish', sans-serif;
+    }
+    &__flexDesctop{
+        display: flex;
+        flex-direction: row;
+    }
+    &__flexDesctopSquare{
+        margin-left: 60px;
+        margin-top: 35px;
+    }
+};
+@media ( max-width:540px){
+    .conteiner{
+        position: relative;
+        width: 340px;
+        margin: 0 auto;
+       
+    };
+       
+    .first-section {
+        position: relative;
+        height: 270px;
+        width: 100%;
+        background-color: #000;
+        
+        &__descriptionTheFilm{
+            display: none;
+        }
+        &__wrapper{
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            
+        }
+        &__header{
+            height: 60px;
+            width: 100%;
+            background-color: #000;
+            
+        }
+        &__nav1{
+            display: none;
+        }
+        &__burger1{
+            display: none;
+        }
+        &__logo{
+            height: 40px;
+            width: 40px;
+            margin-top: 10px;
+        }
+    
+        &__logoText{
+            font-size: 22px;
+            color: #fff;
+            font-weight: 500;
+            margin-top: 18px;
+            margin-left: 5px
+        }
+        &__nav{
+            font-size: 12px;
+            color: #fff;
+            font-weight: 400;
+            margin-top: 25px;
+            margin-left: 30px
+        }
+        &__navLine{
+            background: linear-gradient(to right, #326CFF, #26FFF2);
+            width: 30px;
+            height: 1px;
+            border-radius: 20px;
+            position: absolute;
+            top: 42px;
+            left: 107px;
+        }
+        &__toDoList{
+            height: 10px;
+            width: 10px;
+            margin-top: 28px;
+            margin-left: 7px;
+            display: block;
+        }
+        &__search{
+            height: 14px;
+            width: 14px;
+            margin-top: 25px;
+            margin-left: 135px
+        }
+        &__burger{
+            height: 14px;
+            width: 14px;
+            margin-top: 25px;
+            margin-left: 20px
+        }
+        &__banner{
+            height: 200px;
+            width: 200px;
+            opacity: 0.5;
+            margin-left: 140px;
+        }
+        &__discribeConteiner{
+            position: absolute;
+            top: 40px;
+            left: 10px;
+            
+        }
+        &__callBanner{
+            font-size: 20px;
+            color: #fff;
+            font-weight: 600;
+        }
+        &__buttonPlay{
+            height: 25px;
+            width: 55px;
+            background: linear-gradient(to right, #326CFF, #26FFF2);
+            border-radius: 40px;
+            border-style: none;
+            display: flex;
+            flex-direction: row;
+        }
+        &__buttonInformation{
+            height: 25px;
+            width: 60px;
+            background: #fff;
+            border-radius: 40px;
+            border-style: none;
+            margin-left: 10px
+        }
+        &__infoText{
+            font-size: 8px;
+            font-weight: 700;
+        }
+        &__play{
+            width: 10px;
+            height: 10px;
+            margin-top: 8px;
+            margin-left: 5px;
+        }
+        &__playText{
+            font-size: 10px;
+            font-weight: 700;
+            color: #fff;
+            margin-top: 7px;
+            margin-left: 3px;
+        }
+        &__someInfo{
+            font-size: 10px;
+            color: #fff;
+            font-weight: 700;
+            margin-right: 10px;
+        }
+        &__someInfo1{
+            font-size: 10px;
+            color: #fff;
+            font-weight: 700;
+            margin-right: 10px;
+        }
+        &__age{
+            height: 35px;
+            width: 35px;
+            margin-right: 10px;
+            margin-top: -12px;
+        }
+        &__star{
+            height: 12px;
+            width: 12px;
+        }
+    
+    };
+    .second-section {
+        position: relative;
+        height: 1565px;
+        width: 100%;
+        background-color: #000;
+        
+        
+        &__startLine{
+            background: linear-gradient(to right, #326CFF, #26FFF2);
+            width: 5px;
+            height: 20px;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+        &__generalCall{
+            font-size: 14px;
+            color: #fff;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-left: 10px;
+        }
+        &__geners5{
+            display: none;
+        }
+        &__posterSlide{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+        }
+        &__poster1{
+            height: 200px;
+            width: 150px;
+            margin-left: 10px;
+        }
+        &__poster2{
+            height: 180px;
+            width: 130px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        &__poster20{
+            display: none;
+        }
+        &__actors4{
+            display: none;
+        }
+        &__poster3{
+            height: 180px;
+            width: 130px;
+            margin-top: 10px;
+            margin-left: 23px;
+        }
+        &__poster4{
+            height: 200px;
+            width: 150px;
+            margin-left: 10px;
+        }
+        &__buttonSee{
+            height: 25px;
+            width: 65px;
+            background: linear-gradient(to right, #326CFF, #26FFF2);
+            border-radius: 40px;
+            border-style: none;
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+        }
+        &__SeeText{
+            font-size: 10px;
+            font-weight: 700;
+            color: #fff;
+            margin-top: 7px;
+            margin-left: 9px;
+        }
+        &__geners1{
+            height: 100px;
+            width: 150px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        &__geners2{
+            height: 100px;
+            width: 150px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        &__geners3{
+            height: 100px;
+            width: 150px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        &__geners4{
+            height: 100px;
+            width: 150px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        &__actors1{
+            height: 100px;
+            width: 100px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        &__actors3{
+            display: none;
+        }
+        &__actors2{
+            height: 100px;
+            width: 100px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        &__actors1Call{
+            color: #fff;
+            font-size: 12px;
+            margin-left: 33px;
+            margin-right: 53px;
+            margin-top: 10px;
+        }
+        &__actors2Call{
+            color: #fff;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        &__actors3Call{
+            display: none;
+        }
+        &__actors4Call{
+            display: none;
+        }
+        &__actors5Call{
+            display: none;
+        }
+        &__actors6Call{
+            display: none;
+        }
+        &__bigBull{
+            height: 170px;
+            width: 340px;
+            border-radius: 10px;
+            margin-top: 30px;
+            margin-left: 0px;
+        }
+        &__bigBull1{
+            height: 100px;
+            width: 230px;
+            border-radius: 10px;
+            margin-top: 45px;
+            margin-left: 50px;
+        }
+        &__bigBull2{
+            height: 170px;
+            width: 340px;
+            border-radius: 10px;
+            margin-top: 30px;
+            opacity: 0.4;
+            margin-left: 0;
+        }
+        &__lastText{
+            font-size: 18px;
+            color: #fff;
+            font-weight: 700;
+            position: absolute;
+            top: 1470px;
+            left: 20px;
+    
+        }
+        &__buttonRN{
+            height: 25px;
+            width: 80px;
+            background: linear-gradient(to right, #326CFF, #26FFF2);
+            border-radius: 40px;
+            border-style: none;
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+            position: absolute;
+            top: 1510px;
+            left: 220px;
+        }
+    
+    };
+    .footer-section{
+        position: relative;
+        height: 500px;
+        width: 100%;
+        background-color: #000;
+        &__flexDesctop{
+            display: block;
+        }
+        &__flexDesctopSquare{
+            display: block;
+            margin-top: 0px;
+            margin-left: 0;
+        }
+        &__logo{
+            height: 40px;
+            width: 40px;
+            margin-top: 40px;
+            margin-left: 130px;
+        }
+    
+        &__logoText{
+            font-size: 22px;
+            color: #fff;
+            font-weight: 500;
+            margin-top: 48px;
+            margin-left: 5px
+        }
+        &__text1{
+            font-size: 14px;
+            color: #C2C2C2;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 40px;
+        }
+        &__text2{
+            font-size: 14px;
+            color: #C2C2C2;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 10px;
+        }
+    };
+};
